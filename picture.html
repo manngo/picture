@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Picture</title>
+		<script type="text/javascript" src="http://widgets.comparity.net/say.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://widgets.comparity.net/say.css">
+		<script type="text/javascript" src="picture.js"></script>
+		<style type="text/css">
+
+			html {
+				font-family: sans-serif;
+			}
+			h1 {
+				font-family: sans-serif;
+				width: 4em;
+				text-align: center;
+				color: #482A22;
+				background-color: #995555;
+
+				border: thin solid #995555;
+				padding: .75em 1.5em;
+				box-shadow:
+					4px 4px #666,
+					inset 2px 2px 2px white,
+					inset -2px -2px 2px #330000;
+				border-radius: 90% 20%/40% 70%;
+				text-shadow: 0 1px 1px #F6E8CD;
+
+				background: linear-gradient(to bottom, #B79675, #675547);
+			}
+			h1:hover {
+				animation: bulge 1s infinite alternate;
+				-webkit-animation: bulge 1s infinite alternate linear;
+			}
+			@keyframes bulge {
+				from {
+					transform: scale(1);
+				}
+				to {
+					transform: scale(1.4);
+				}
+			}
+			@-webkit-keyframes bulge {
+				from {
+					-webkit-transform: scale(1);
+				}
+				to {
+					-webkit-transform: scale(1.4);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Picture</h1>
+		<picture>
+			<source srcset="teacher-large.jpg" media="(min-width:420px)">
+			<img src="teacher-small.jpg" alt="Teacher" data-src="teacher-large.jpg">
+		</picture>
+		<picture>
+			<source srcset="https://manngo.github.io/srcset.js/sample/images/oh1x408.jpg" media="(min-width:620px)">
+			<img src="https://manngo.github.io/srcset.js/sample/images/oh1x192.jpg" alt="Opera House">
+		</picture>
+	</body>
+</html>
