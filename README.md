@@ -3,6 +3,8 @@
 
 Sample
 
+[Download Latest](https://github.com/manngo/picture/releases/download/1.0/picture.js)
+
 Simple polyfill for HTML `<picture>` Element
 
 This enables the `<picture>` element for those modern browsers which don’t yet support it.
