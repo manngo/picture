@@ -1,9 +1,12 @@
 `picture` Polyfill
 ==================
 
-Sample
+[Sample File](https://manngo.github.io/picture/sample/picture.html)
 
 [Download Latest](https://github.com/manngo/picture/releases/download/1.0/picture.js)
+
+About
+-----
 
 Simple polyfill for HTML `<picture>` Element
 
